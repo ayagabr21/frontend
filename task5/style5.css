@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+   
+}
+/* header style */
+
+.fa-envelope{
+    padding:15px;
+    color: 	#ff6a19;
+}
+.fa-clock{
+    padding:15px;
+    color: 	#ff6a19;
+}
+.fa-phone-alt{
+    padding:15px;
+    color: 	#ff6a19;
+   
+}
+.fa-tools{
+    color: black;
+}
+/* navbar */
+.text-primary{
+    color:#ff6a19 !important ;
+}
+.navbar{
+    border-bottom: 3px solid #ff6a19  ; 
+    opacity: 0.9;
+}
+/* showcase */
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+
+
+#showcase {
+    background: url(https://image.freepik.com/free-photo/muscular-car-service-worker-repairing-vehicle_146671-19705.jpg) no-repeat center  center/cover fixed;
+    min-height: 97vh;
+    width: 100%;
+    
+  }
+  #showcase .dark-overlay {
+    position: absolute;
+    color: 	#f6e8bc;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8)
+  }
+  #showcase .showinfo {
+    height: 100%;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .request{
+      width: 350px;
+      height: 450px;
+      text-align: center;
+      z-index: -1;
+      background-color: rgb(3, 3, 3);
+      opacity: 0.6;
+  }
+  .btn {
+    width: 250px !important;
+    
+    
+    }
+.btn2{
+    color: tomato;
+    border:2px solid white;
+    border-radius: 0px;
+    font-size: 18px;
+    height: 60px;
+    width: 5px;
+}
+/* section2 */
+hr {
+    width: 8rem;
+    opacity: 1;
+  }
+  
+  .hr-primary{
+    border-bottom: 5px solid #ff6a19;
+  }
+  #who .description{
+      font-size: 18px;
+      font-family: initial;
+      color: 	#726c65;
+  }
+  /* section3 */
+  #why .h3{
+      color:#f6e8bc;
+  }
+  .hr-secondary {
+      width: 7rem;
+    border-bottom: 5px solid #f6e8bc;
+  }
+  .fa-star{
+      color:#ff6a19 ;
+      font-size: 50px;
+  }
+  .fa-fire{
+    color:#ff6a19 ;
+    font-size: 50px;
+}
+.fa-flag{
+    color:#ff6a19 ;
+    font-size: 50px;
+}
+#why .content{
+    color: #c6d6d3;
+    font-size: 14px;
+}
+/* section4 */
+
+ .btn3{
+    color: tomato;
+    background-color:#f2efea;
+    border:2px solid 		#ff6a19;
+    border-radius: 0px;
+    font-size: 18px;
+    height: 50px;
+    width: 5px;
+    
+}
+.fa-long-arrow-alt-right{
+    color:#ff6a19;
+    font-size: 20px;
+    
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+/* section5 */
+.hr-dark{
+    width: 7rem;
+    border-bottom: 5px solid #2b2926	;
+}
+time{
+    font-size: 10px;
+    color: #69706f;
+    font-weight: bold;
+}
+.btn4{
+    background-color: #ff6a19;
+    border-radius: 0px;
+    font-size: 18px;
+    height: 50px;
+    width: 5px;
+    color: white;
+}

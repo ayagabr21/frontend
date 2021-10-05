@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+a:hover{
+    background-color: rgb(245, 223, 204);
+    transition: 1s;
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+}
+.home{
+    background-color: rgb(211, 112, 55);
+    opacity: 0.7;
+}
+.fa-home{
+    font-size: 17px;
+    padding-right: 3px;
+}
+.fa-search{
+    font-size: 23px;
+    padding-top: 15px; 
+    padding-right: 20px;
+}
+.types{
+    background-color:rgb(245, 223, 204) ;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    position: absolute;
+    left: 580px;
+    visibility: hidden;
+    transition: 1s; /*why transition not appeared?*/ 
+    
+}
+.books:hover +.types{
+    
+    visibility: visible;
+}
+
+.auth{
+    background-color:rgb(245, 223, 204) ;
+    /*how can it appear in columns although i disabled flex  and
+     what is the diffrence between display none and visiblity hidden ??*/
+    
+    /* display: flex;
+     flex-direction: column;*/   
+    width: 140px;
+    position: absolute;
+    left: 430px;
+    display: none;
+    transition: 1s;
+    
+}
+.author:hover +.auth{
+    transition: 1s;
+    display: block;
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    
+}
+.view{
+color: tan;
+background-color: rgb(17, 79, 104);
+opacity: 0.8;
+
+position: relative;
+bottom: 90px;
+left: 50px;
+
+}
+.view:hover{
+    transition: 1s;
+    background-color: rgb(133, 130, 126);
+    color: black;
+}
+.learn{
+    position: relative;
+    bottom: 400px;
+    left: 45px;
+    color:rgb(211, 112, 55) ;
+    font-weight: bolder;
+    font-size: 33px;
+    z-index: 1;
+
+}
+.container{ 
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   position: relative;
+        bottom: 90px;
+   
+
+}
+
+    h3{
+        
+        text-align: center;
+        width: 100%;
+        
+    }
+    #obj{
+        font-family: 'Courier New', monospace;
+        font-size: 30px;
+        color: rgb(97, 92, 92);
+        
+    }
+    p{
+        text-align: center;
+        width: 100%;
+        
+        
+       
+    }
+    #about{
+        font-family: 'Courier New', monospace;
+       font-size:  14px  ;
+       color: rgb(134, 130, 129);
+    
+    }
+
+    .container2{
+        height: 350px;
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       justify-content: space-between;   
+    }
+    .icon{
+        height: 35%;
+        background-color: rgb(240, 215, 183);
+    }
+    .fa-book-reader{
+        font-size: 26px;
+
+    }
+
+    .reader{
+        height: 60%;
+        background-color: rgb(240, 215, 183);
+        padding: 40px
+    }
+   
+    
+    .container3{
+        height: 350px;
+    
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       
+    
+    }
+    .child{
+        width: 25%;
+        padding: 10px;
+        text-align: center;
+        font-size: 13px;
+        color: rgb(165, 106, 118);
+        border-radius: 8px;
+        margin: 30px;
+        background-color: rgb(233, 231, 229);
+        
+    }
+    .child:hover{
+        transition: 1s;
+        background-color: rgb(240, 215, 183);
+    }
+    .fa-child{
+        font-size: 50px;
+        color: crimson;
+    }
+    .history{
+        width: 25%;
+        color: rgb(167, 161, 226);
+        text-align: center;
+        font-size: 13px;
+        color: rgb(165, 106, 118);
+        border-radius: 8px;
+        margin: 30px;
+        background-color: rgb(233, 231, 229);
+
+        
+    }
+    .history:hover{
+        transition: 1s;
+        background-color: rgb(240, 215, 183);
+    }
+    .fa-hand-holding-heart{
+        font-size:50px ;
+        color: crimson;
+    }
+    .Romance{
+        width: 25% ;
+        padding: 10px;
+        margin: 30px;
+        background-color: rgb(233, 231, 229);
+        text-align: center;
+        font-size: 13px;
+        color: rgb(165, 106, 118);
+        border-radius: 8PX;
+    }
+    .Romance:hover{
+        transition: 1s;
+        background-color: rgb(240, 215, 183);
+    }
+    .fa-landmark{
+        font-size: 50px;
+        color:crimson;
+    }
+    h4{
+        margin: 25px;
+        font-size: larger;
+        color: rgb(151, 21, 47);
+        font-family: 'Courier New', monospace;
+    }
+
+   
+.footer{
+    background-image: linear-gradient(rgb(240, 215, 183), rgb(233, 231, 229));
+    opacity: 0.9;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+section{
+    position: relative;
+    left: 1300px;
+}

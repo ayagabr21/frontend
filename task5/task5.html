@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- link stylesheet -->
+<link rel="stylesheet" href="style5.css">
+<!-- link fontawsome -->
+<script src="https://kit.fontawesome.com/5a6c72128d.js" crossorigin="anonymous"></script>
+</head>
+<header>
+<!-- header -->
+<div class="row ">
+  <!--first flex  -->
+
+
+<div class="row justify-content-center text-lg-center">
+  <div class="col-sm-4">    <a href="" style="text-decoration: none;" > <i class="far fa-envelope"></i>  autorepair@demolink.org </a>  </div>
+        <div class="col-sm-4">    <a href="" style="text-decoration: none;"  ><i class="far fa-clock" ></i> MON-SAT 7:00-19:00</a> </div>
+        <div class="col-sm-4">   <a href=""  style=" text-decoration: none;">  <i class="fas fa-phone-alt"></i>  1-800-1234-567</a></div>
+      </div> -->
+
+
+
+
+<!-- 2nd flex logo -->
+
+    <div class="  h-100 flex-column bd-highlight  " style="background-color: 	#ff6a19;">
+       
+        <div class="text-center" style="color: aliceblue;">
+        <a href="" >     <h3> <i class="fas fa-tools"></i> </h3>   </a>
+            <p class="h3" style="padding: 0%;">   ARC Auto </p>
+            <p >All car repair services </p>
+        </div>
+    </div>
+
+
+    <!-- navbar -->
+   <!-- Q? why when i use postion fixed or fixed top the navbar  it become fixed and the white area in the beging doesn't appear at all?? -->
+      
+    <!-- <nav class="navbar   navbar-expand-md navbar-dark bg-dark   " >
+      <div class=" container    "  > -->
+        
+                
+  
+        
+          <!-- <div class="row-cols-3 navbar-nav  ">
+            <a  class=" nav-link active " aria-current="page" href="#"  >Home</a>
+            <a class=" nav-link active"aria-current="page" href="#" >Features</a>
+            <a class=" nav-link active"aria-current="page" href="#">Pricing</a>
+            <a class="  nav-link active"aria-current="page" href="#">Gallery</a>
+            <a class=" nav-link active"aria-current="page" href="#">services</a>
+              
+            
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+      
+        </div>
+      </div>
+      </div>
+    </nav>    -->
+
+
+
+    <div  class="navbar navbar-expand-xxl navbar-dark bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-uppercase text-primary"  href="task5.html">ACR</a>
+        <!-- ******************collapse menue   js********************* -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- ********************************* -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          
+          <ul class="navbar-nav me-2 mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">vehcile Gallery</a>
+            </li>
+            <!-- dropdown service 1************************** -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   services  </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#"> Replace Oxygen Sensor</a></li>
+                <li><a class="dropdown-item" href="#"> Replace Oxygen Sensor</a></li>
+                <li><a class="dropdown-item" href="#">Replace Ignition Coil</a></li>
+                <li><a class="dropdown-item" href="#">Replace Spark Plug</a></li>
+              </ul>
+              
+            </li>
+            <!-- ******************************************* -->
+
+
+<!-- dropdown contacts 2************************** -->
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   Contacts  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="#"> 01234569787</a></li>
+    <li><a class="dropdown-item" href="#"> 07896541239</a></li>
+    <li><a class="dropdown-item" href="#">58479357 </a></li>
+    
+  </ul>
+  
+</li>
+<!-- ******************************************* -->
+
+<!-- dropdown blogs 3************************** -->
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   Blogs  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="#"> The Allstate Blog</a></li>
+    <li><a class="dropdown-item" href="#"> Cary Car Care Blog</a></li>
+    <li><a class="dropdown-item" href="#">Fairfax Auto Repair </a></li>
+    
+  </ul>
+  
+</li>
+<!-- ******************************************* -->
+<!-- search bar -->
+            
+          </ul>
+          <form class="d-flex w-50 px-4" >
+            <input class="form-control ms-4" type="search" placeholder="Search" aria-label="Search" required>
+            <button class="btn btn-outline-light" type="submit "> <i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </div>    
+  </header>
+  
+  <!-- showcase -->
+  <div class="row ">
+  <section id="showcase">
+    <div class="dark-overlay">
+      
+    <div class="showinfo">
+      <div class="col-md-6">
+          <!-- child1 -->
+          
+            <h3 class="lead text-uppercase" > welcome to acr auto repair</h3>
+          <h1> service and repair</h1>
+          <p> ACR Auto is committed to earn your trust by providing <br>
+            expertise, value you expect. </p>
+            <div class col-md-4>
+              <button class="btn  btn2" >learn more</button>   
+            </div>
+          </div>
+         
+              
+          
+
+          <!-- child2 -->
+          <div class="col-md-4">
+          <div class="request">
+          
+            <div>
+              <h3> Request a Quote</h3>
+              <p> get in touch with us and we will get <br> to you as soon as possible </p>
+              <!-- dropdown 1 car model  -->
+              <div  class="row gy-5">
+                
+                      
+                    <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                      car model
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                
+              </ul>
+            </div>
+
+          <!-- dropdown2 -->
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              car make
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        
+      </ul>
+    </div>
+    <!-- dropdown3 -->
+    <div class="dropdown">
+      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        car year
+</button>
+<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+  <li><a class="dropdown-item active" href="#">Action</a></li>
+  <li><a class="dropdown-item" href="#">Another action</a></li>
+  <li><a class="dropdown-item" href="#">Something else here</a></li>
+  
+</ul>
+</div>
+       <!-- btn start -->
+   
+    <div class col-md-4>
+      <button class="btn btn-success" type="submit">start</button>   
+    </div>
+           
+
+              
+      </div>
+    </div>
+    
+        </div>
+    </div>
+        
+  </section>
+  
+    
+  
+  
+   
+   
+<!-- section2 -->
+<section id="who"  class="bg-light py-4 ">
+  <div class="container">
+    <div class="row justify-content-between ps-3">
+      <div class="col-md-5 py-5 ps-5">
+        
+        <h3>who we are</h3>
+        <hr class="hr-primary" />
+      </div>
+    </div>
+    <div class="row justify-content-around description">
+      <div class="col-sm-5">
+        You need an experienced and trustworthy general auto repair shop in West Chester instead of an overpriced dealership or auto repair chain. From State Inspection to engine replacement, ACR has the knowledge to repair your car right the first time with the latest technology and equipment.
+      </div>
+      <div class="col-sm-5">
+        Our number one goal has always been complete satisfaction for customers in surrounding areas. Our car repair shop has a longstanding reputation for quality repairs. Whether you need routine auto maintenance services or necessary car repairs, contact us online or visit us during business hours.
+
+      </div>
+    </div>
+
+</section>
+
+<!-- section 3 -->
+<section id="why" class="bg-dark text-light py-3">
+  <div class="container">
+    <div class="row justify-content-between ps-3">
+      <div class="col-md-5 py-5 ps-5">
+      <h3 class="h3"> why choose us</h3>
+      <hr class="hr-secondary" />
+    </div>
+  </div>
+  <div class="row justify-content-center content">
+    <!-- child1 affordable -->
+    <div class="col-md-1">
+    <a href="" class="lead"><i class="fas fa-star"></i> </a>
+  </div>
+    <div class="col-md-3">
+      
+      <p class="lead fw-bold">we are fair and affordable</p>
+      <p>customers come back when treated right <br> and billed a fair amount of our work. <br>while other places try  to overcharge yoy.</p>
+    
+    </div>
+  <!-- child2 reputation -->
+    <div class="col-md-1">
+      <a href="" class="lead"><i class="fas fa-fire"></i> </a>
+    </div>
+      <div class="col-md-3">
+        
+        <p class="lead fw-bold">good reputation</p>
+        <p>customers come back when treated right <br> and billed a fair amount of our work. <br>while other places try  to overcharge yoy.</p>
+      
+      </div>
+
+      <!-- child3 experience -->
+      <div class="col-md-1">
+        <a href="" class="lead"><i class="fas fa-flag"></i></a>
+      </div>
+      
+        <div class="col-md-3 ">
+          
+          <p class="lead fw-bold">our experience</p>
+          <p>customers come back when treated right <br> and billed a fair amount of our work. <br>while other places try  to overcharge yoy.</p>
+        
+        </div>
+  </div>
+</div>
+</section>
+
+<!-- section 4 our services -->
+<section id="our-servives" class="py-4">
+  <div class="container " style="background-color: 	#f2efea;">
+  <div class=" row justify-content-between  ps-3 ">
+    <div class="col-md-5 py-5 ps-5">
+    <h3 class="h3"> our services</h3>
+    <hr class="hr-primary" />
+    <p style="font-size: 14px;"> we offer a variety of services to help you to get back on the road and keep your life safer</p>
+  </div>
+</div>
+<!-- row1 -->
+ 
+<div class="row ">
+  <!-- why this card in small screen doesn't make space bet the next one -->
+  <div class="col-md-4 gy-lg-4">     
+    <div class="card bg-transparent text-md-center text-dark" style="border: 5px solid #ff6a19	;">
+      <img src="https://image.freepik.com/free-photo/mechanic-changing-engine-oil-car-vehicle_342744-260.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <p class="card-text fw-bold " style="font-size: 20px;">oil exchange</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-4 gy-lg-4 mb-5">
+    <div class="card bg-transparent text-md-center text-dark" style="border: 5px solid #ff6a19	;" >
+      <img src="https://image.freepik.com/free-photo/blonde-repairing-auto-undercarriage-with-wrench_7502-4424.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <p class="card-text fw-bold " style="font-size: 20px;">brakes</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-4 gy-4">
+    <div class="card bg-transparent text-md-center text-dark" style="border: 5px solid #ff6a19	;">
+      <img src="https://image.freepik.com/free-photo/hands-steering-wheel-beautiful-businesswoman-trying-her-new-car-automobile-salon_146671-16058.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text fw-bold " style="font-size: 20px;">transmission</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- row2 -->
+
+
+<div class="row ">
+  <div class="col-md-4 gy-4 col-lg">
+    <div class="card bg-transparent text-md-center text-dark " style="border: 5px solid #ff6a19	;" >
+      <img src="https://image.freepik.com/free-photo/mechanic-changing-tires-car-service_1303-26894.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <p class="card-text fw-bold " style="font-size: 20px;">tiers & wheels</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-4 gy-4 col-lg">
+    <div class="card bg-transparent text-md-center text-dark"  style="border: 5px solid #ff6a19	;">
+      <img src="https://image.freepik.com/free-photo/car-engine_1373-183.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <p class="card-text fw-bold " style="font-size: 20px;">A/C</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-4 gy-4 col-lg">
+    <div class="card bg-transparent text-md-center text-dark" style="border: 5px solid #ff6a19	;">
+      <img src="https://image.freepik.com/free-photo/two-colleagues-factory_1303-14331.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text fw-bold " style="font-size: 20px;">engine performance</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4 gy-5 col-lg">
+    <button class="btn btn3" type="submit">view all services <a href=""><i class="fas fa-long-arrow-alt-right"></i></a></button>
+  </div>
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+<!-- section5 -->
+<section id="news">
+  <div class="container">
+    <div class="row justify-content-between ps-3">
+      <div class="col-md-5 py-5 ps-5">
+        
+        <h3>latest news</h3>
+        <hr class="hr-dark" />
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://image.freepik.com/free-photo/industrial-port-de-barcelona-evening_1398-4295.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #ff6a19	;">Expensive oil change are here to stay</h5>
+            <p class="card-text">
+              <time  > <a href=""><i class="far fa-calendar-alt"></i></a> 26 Jan 2020  </time>
+              <br>
+              Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://image.freepik.com/free-photo/truck-long-vehicle-ready-delivering-transport_342744-1294.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #ff6a19	;">What's included in tuneup ?</h5>
+            <p class="card-text">
+              <time  > <a href=""><i class="far fa-calendar-alt"></i></a> 26 Jan 2020  </time>
+              <br>
+              Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://image.freepik.com/free-photo/finance-economics-work-male-discussion-laptop_1418-79.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #ff6a19	;">Do you really need to change your oil every 3000 miles ? </h5>
+            <p class="card-text">
+              <time  > <a href=""><i class="far fa-calendar-alt"></i></a> 26 Jan 2020  </time>
+              <br>
+              Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 gy-5 col-lg">
+        <button class="btn btn4" type="submit">view all news <a href=""><i class="fas fa-long-arrow-alt-right"></i></a></button>
+      </div>
+    </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+
+<!-- section6 -->
+<section id="test" class="py-4 text-light ">
+  <div class="container rounded-3" style="background-color: 		#2b2926 ; ">
+  <div class=" row justify-content-between  ps-3 ">
+    <div class="col-md-5 py-5 ps-5">
+    <h3 class="h3"> testimonials</h3>
+    <hr class="hr-primary" />
+  </div>
+</div>
+<div class="row justify-content-center">
+  <!-- child1 -->
+  <div class="col-sm-1">
+    <img src="https://previews.123rf.com/images/dolgachov/dolgachov1603/dolgachov160306114/54057828-business-people-and-portrait-concept-smiling-businessman-face-or-portrait.jpg"class="rounded-circle"  width="100" height="100" alt="...">
+  </div>
+    <div class="col-md-4">
+      
+<p>Recently took my vehicle there for the first time for a water pump replacement. They were very friendly, did a great job, didn't charge me any extra fees above their quote, and got it done on time. Very happy with the experience.
+<br>
+ - George Michael
+  </p>    
+    </div>
+    <!-- child2 -->
+    <div class="col-sm-1">
+      <img src="https://thumbs.dreamstime.com/b/business-woman-portrait-isolated-white-close-up-face-background-smiling-female-model-office-suit-dressed-31155582.jpg"class="rounded-circle"  width="100" height="100" alt="...">
+    </div>
+      <div class="col-md-4">
+        
+<p>I've been taking my vehicles to ACR for a number of years and have always had a good experience. Customer service is excellent and they live by the golden rule. Can't recommend them enough!
+<br>
+  -Laurie Anderson</p>      
+      </div>
+
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- footer -->
+
+<footer id="footer " class="py-4 text-dark">
+  <div class="container-fluid bg-light">
+    <div class="row justify-content-center">
+      <div class="row text-sm-center">
+        <a href=""><i class="fas fa-tools"></i></a>
+
+      </div>
+      <div class="row text-sm-center">
+        <h1>acr auto </h1>
+        <p>All car repair service</p>
+      </div>
+     
+      <div class=" text-sm-center">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""> <i class="fab fa-google-plus-g"></i></a>
+      </div>
+      <div class="text-sm-center"><p>&copy; 2015 RapidTables.com</p></div>
+      
+    </div>
+
+  </div>
+
+
+</footer>
+
+
+
+</body>
+</html>
